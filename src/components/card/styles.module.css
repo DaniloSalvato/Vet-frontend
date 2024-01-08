@@ -1,0 +1,37 @@
+.card {
+  width: 500px;
+  height: 300px;
+  background-color: #00ced1;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card h2 {
+    font-size: 24px; /* Aumentei o tamanho do subtítulo */
+    margin-bottom: 8px; /* Reduzi o espaçamento inferior */
+  }
+  
+  .card p {
+    width: 350px;
+    font-size: 18px; /* Aumentei o tamanho do texto */
+    margin-bottom: 12px; /* Reduzi o espaçamento inferior */
+  }
+  
+  .card ul {
+    width: 300px;
+    padding-left: 20px; /* Adicionei um recuo à esquerda para a lista */
+  }
+  
+  .card li {
+
+    font-size: 16px; /* Ajustei o tamanho da fonte da lista */
+    margin-bottom: 6px; /* Reduzi o espaçamento inferior */
+  }
+  

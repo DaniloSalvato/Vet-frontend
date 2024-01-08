@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.imagem {
+  position: relative;
+  width: 100%;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.texto {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 10vw;
+  font-family: "Architects Daughter", cursive;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-block: 1rem;
+}

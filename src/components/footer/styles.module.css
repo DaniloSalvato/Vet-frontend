@@ -1,0 +1,16 @@
+.container {
+  background-color: #00CED1;
+  color: white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px; /* Adicionando um preenchimento para melhorar a aparência */
+  text-align: center; /* Centralizando o texto horizontalmente */
+}
+
+.container p {
+  margin: 0; /* Removendo margens padrão */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
